@@ -43,13 +43,13 @@ function Main({ navigation }) {
           techs,
         }
       });
-
-      setDevs(response.data.devs);
+      
+      setDevs(response.data);
 
     }
 
     function handleRegionChanged(){
-      setCurrentRegion(region);
+      setCurrentRegion(currentRegion);
     }
 
     if (!currentRegion){
@@ -85,14 +85,14 @@ function Main({ navigation }) {
         <View style={styles.searchForm}>
           <TextInput
             style={styles.searchInput}
-            placeholder="Buscar devs por techs..."
+            placeholder="Search devs by techs..."
             placeholderTextColor="#999"
             autoCapitalize="words"
             autoCorrect={false}
             value={techs}
             onChangeText={setTechs}
           />
-          <TouchableOpacity style={styles.loadButton}>
+          <TouchableOpacity style={styles.loadButton} onPress={loadDevs}>
             <MaterialIcons name="my-location" size={20} color="#FFF" />
           </TouchableOpacity>
         </View>
