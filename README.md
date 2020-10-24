@@ -2,6 +2,6 @@
 
 By typing any tech on the input, you can discover programmers in your the area the use the same tech.
 
-This project was made following the tutorials of [Rockeseat Omnistack #10.](https://rocketseat.com.br/)
+![gif](https://s8.gifyu.com/images/ezgif.com-gif-maker75631942c7c46f83.gif)
 
-Techs used: NodeJS, React, React Native, MongoDB
+Tech Stack: NodeJS, React, React Native, MongoDB
