@@ -1,4 +1,5 @@
-# DevRadar: An app for finding developers near you! #
+# DevRadar 📍
+### Find developers near you
 
 * Create your profile using your Github username and favorite techs
 * Find developers nearby when you search for a specific tech
