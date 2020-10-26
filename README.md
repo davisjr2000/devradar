@@ -6,4 +6,4 @@
 
 ![gif](https://s8.gifyu.com/images/ezgif.com-gif-maker75631942c7c46f83.gif)
 
-Tech Stack: NodeJS, React, React Native, MongoDB
+Tech Stack: ReactJS(Hooks), React Native(Hooks), NodeJS, MongoDB
